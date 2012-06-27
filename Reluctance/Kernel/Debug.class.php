@@ -88,7 +88,7 @@ class Debug  {
 	 */
 	STATIC PUBLIC function addmsg($mess, $type=0)
 	{
-		if(DEBUG && DEBUG === TRUE ){
+		if( DEBUG && DEBUG === TRUE ){
 			switch($type){
 				case 0:		//正常信息
 					self::$info[] = $mess;
